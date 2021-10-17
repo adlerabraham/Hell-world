@@ -13,6 +13,7 @@ body.black{
 	align-items: center;
 	margin-top: 15%;
 }
+
 .icon{
 	height: 110px;
 	width: 110px;
@@ -21,6 +22,12 @@ body.black{
 	margin: 35px;padding: 20px;
 	box-shadow: inset 0px 0px 6px 2px rgb(255 255 255 / 50%),
 						7px 7px 7px rgb(0 0 0 / 50%);
+}
+.centre{
+	margin-top: 5%;
+	height: 120px;
+	width: 250px;
+	margin-left: 35%;
 }
 .icon .glyphicon{
 	color: #fff;
@@ -49,4 +56,16 @@ body.black{
 	box-shadow: inset 0px 4px 20px 0px rgb(255 255 255 / 50%),
 						-5px 20px 91px 20px rgb(31 93 122 /54%)
 
+}
+.icon .glyphicon.glyphicon-text{
+
+	background:rgb(235, 116, 5);
+	border-radius: 30%;
+	box-shadow: inset 0px 4px 20px 0px rgb(255 255 255 / 50%),
+						-5px 20px 91px 20px rgb(223 180 101 /54%)
+}
+h1.small{
+	font-size: 15px;
+	text-transform: uppercase;
+	vertical-align: middle;
 }
